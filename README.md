@@ -3,9 +3,6 @@
 ## Descripción del Proyecto
 Esta plataforma ha sido diseñada para ayudar a una escuela de robótica a gestionar cursos, grupos de estudiantes y kits de robótica. Los administradores, profesores y estudiantes pueden interactuar con la plataforma para gestionar clases, asignar estudiantes a cursos y utilizar kits de robótica asociados.
 
-## Diagrama ER
-(Incluye aquí un enlace o una imagen del diagrama ER que creaste)
-
 ## Instrucciones para poblar la base de datos
 El proyecto incluye seeders y un factory para poblar la base de datos con usuarios, kits de robótica y cursos.
 
@@ -25,7 +22,7 @@ El proyecto incluye seeders y un factory para poblar la base de datos con usuari
 - Se han generado 100 cursos usando datos ficticios mediante **FakerPHP**.
 
 ### Comandos para ejecutar los seeders:
-- Para ejecutar los seeders y poblar la base de datos, usa el siguiente comando:
+- Para ejecutar los seeders y poblar la base de datos:
   
   ```bash
   php artisan db:seed
