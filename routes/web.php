@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('courses', CourseController::class);
+Route::resource('groups', GroupController::class);
+Route::resource('robotics-kits', RoboticsKitController::class);
+Route::resource('users', UserController::class);
